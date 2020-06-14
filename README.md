@@ -6,7 +6,7 @@ Danh sách thành viên:
 - Đỗ Phú Khương
 - Phạm Thanh Tùng
 
-Phân công:\n
+Phân công:
   - Vũ: fragment Tìm kiếm
   - Quyên: fragment Banner
   - Tùng: fragment Chủ đề thể loại
