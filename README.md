@@ -6,9 +6,9 @@ Danh sách thành viên:
 - Đỗ Phú Khương
 - Phạm Thanh Tùng
 
-Phân công:
-  Vũ: fragment Tìm kiếm
-  Quyên: fragment Banner
-  Tùng: fragment Chủ đề thể loại
-  Khương fragment Album hot, Hot songs
-  Huy: fragment Playlist
+Phân công:\n
+  - Vũ: fragment Tìm kiếm
+  - Quyên: fragment Banner
+  - Tùng: fragment Chủ đề thể loại
+  - Khương fragment Album hot, Hot songs
+  - Huy: fragment Playlist
