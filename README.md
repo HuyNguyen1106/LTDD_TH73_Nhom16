@@ -5,3 +5,10 @@ Danh sách thành viên:
 - Nguyễn Chung Huy, MSSV: 1751010044
 - Đỗ Phú Khương
 - Phạm Thanh Tùng
+
+Phân công:
+  Vũ: fragment Tìm kiếm
+  Quyên: fragment Banner
+  Tùng: fragment Chủ đề thể loại
+  Khương fragment Album hot, Hot songs
+  Huy: fragment Playlist
