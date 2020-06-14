@@ -7,8 +7,8 @@ Danh sách thành viên:
 - Phạm Thanh Tùng
 
 Phân công:
-  - Vũ: fragment Tìm kiếm
-  - Quyên: fragment Banner
-  - Tùng: fragment Chủ đề thể loại
-  - Khương fragment Album hot, Hot songs
-  - Huy: fragment Playlist
+  - Vũ: fragment Tìm kiếm; adapter: PlayMusicAdapter
+  - Quyên: fragment Banner; model QuangCao; adapter: BannerAdapter
+  - Tùng: fragment Chủ đề thể loại; model ChuDe,TheLoai; adapter: TatCaChuDeAdapter, TheLoaiTheoChuDeAdapter
+  - Khương fragment: Album hot, Hot songs; model: Album,BaiHat; Adapter: AlbumAdapter, AllAlbumAdapter, BaiHatHotAdapter
+  - Huy: fragment Playlist, TrangChu; model Playlist; adapter: PlaylistAdapter, DanhsachbaihatAdapter, ListPlaylistAdapter, MainViewPagerAdapter, ViewPagerPlaylistMusic
