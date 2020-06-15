@@ -8,30 +8,30 @@ Danh sách thành viên:
 
 Phân công:
   - Vũ: 
-    + fragment Tìm kiếm; 
-    + adapter: PlayMusicAdapter; 
+    + Fragment: Tìm kiếm
+    + Adapter: PlayMusic
     + Activity: PlayMusic
-    +API(php):PlayListForCurrentDay.php, SearchBaiHat.php, SongBanner.php, TatCaAlbum.php, TatCaChuDe.php, TheLoaiTheoChuDe.php ,                     UpdateLuotThich.php
+    + API(php):PlayListForCurrentDay.php, SearchBaiHat.php, SongBanner.php, TatCaAlbum.php, TatCaChuDe.php, TheLoaiTheoChuDe.php ,                     UpdateLuotThich.php
     + Thiết kế và UpLoad Cơ sở dữ liệu
   - Quyên: 
-    + fragment Banner; 
-    + model QuangCao; 
-    + adapter: BannerAdapter
+    + Fragment: Banner
+    + Model: QuangCao
+    + Adapter: Banner
     + API(php):AlbumHot.php, BaiHatDuocThich.php, ChuDeVaTheLoaiTrongNgay.php, Connect.php, DanhSachBaiHat.php,DanhSachCacPlayList.php
-    + package Service:DataService
+    + package Service: DataService
     + Thiết kế và UpLoad Cơ sở dữ liệu( hình ảnh, bài hát)
   - Tùng: 
-    + fragment Chủ đề thể loại; 
-    + model ChuDe,TheLoai; 
-    + adapter: TatCaChuDeAdapter, TheLoaiTheoChuDeAdapter; 
+    + Fragment: Chủ đề thể loại
+    + Model: ChuDe,TheLoai
+    + Adapter: TatCaChuDeAdapter, TheLoaiTheoChuDeAdapter
     + Activity: TatCaChuDe, TheLoaiTheoChuDe
   - Khương 
-    + fragment: Album hot, Hot songs; 
-    + model: Album,BaiHat; 
-    + Adapter: AlbumAdapter, AllAlbumAdapter, BaiHatHotAdapter; 
+    + Fragment: Album hot, Hot songs
+    + Model: Album,BaiHat
+    + Adapter: AlbumAdapter, AllAlbumAdapter, BaiHatHotAdapter
     + Activity: AllAlbum
   - Huy: 
-    + fragment Playlist, Danh_Sach_Bai_Hat_Play; 
-    + model Playlist; 
-    + adapter: PlaylistAdapter, DanhsachbaihatAdapter, ListPlaylistAdapter, MainViewPagerAdapter, ViewPagerPlaylistMusic; 
+    + Fragment: Playlist, Danh_Sach_Bai_Hat_Play
+    + Model: Playlist
+    + Adapter: PlaylistAdapter, DanhsachbaihatAdapter, ListPlaylistAdapter, MainViewPagerAdapter, ViewPagerPlaylistMusic
     + Activity: AllPlaylist, Danhsachbaihat
