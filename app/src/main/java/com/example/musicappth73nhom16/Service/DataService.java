@@ -1,12 +1,12 @@
 package com.example.musicappth73nhom16.Service;
 
-import com.example.appmusic.Model.Album;
-import com.example.appmusic.Model.BaiHat;
-import com.example.appmusic.Model.ChuDe;
-import com.example.appmusic.Model.PlayList;
-import com.example.appmusic.Model.QuangCao;
-import com.example.appmusic.Model.TheLoai;
-import com.example.appmusic.Model.TheLoaiTrongNgay;
+import com.example.musicappth73nhom16.Model.Album;
+import com.example.musicappth73nhom16.Model.BaiHat;
+import com.example.musicappth73nhom16.Model.ChuDe;
+import com.example.musicappth73nhom16.Model.PlayList;
+import com.example.musicappth73nhom16.Model.QuangCao;
+import com.example.musicappth73nhom16.Model.TheLoai;
+import com.example.musicappth73nhom16.Model.TheLoaiTrongNgay;
 
 import java.util.List;
 
