@@ -1,6 +1,6 @@
 # LTDD_TH73_Nhom16
 Danh sách thành viên:
-- Nguyễn Khắc Vũ
+- Nguyễn Khắc Vũ, MSSV:1751010182
 - Hoàng Thị Quyên, MSSV: 1751010121
 - Nguyễn Chung Huy, MSSV: 1751010044
 - Đỗ Phú Khương
@@ -11,6 +11,8 @@ Phân công:
     + fragment Tìm kiếm; 
     + adapter: PlayMusicAdapter; 
     + Activity: PlayMusic
+    +API(php):PlayListForCurrentDay.php, SearchBaiHat.php, SongBanner.php, TatCaAlbum.php, TatCaChuDe.php, TheLoaiTheoChuDe.php ,                     UpdateLuotThich.php
+    + Thiết kế và UpLoad Cơ sở dữ liệu
   - Quyên: 
     + fragment Banner; 
     + model QuangCao; 
