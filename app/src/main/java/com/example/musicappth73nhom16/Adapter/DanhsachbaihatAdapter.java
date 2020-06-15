@@ -66,7 +66,7 @@ public class DanhsachbaihatAdapter extends RecyclerView.Adapter<DanhsachbaihatAd
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(context, PlayNhacActivity.class);
-                    intent.putExtra("baihat", arrBaiHat.get(getPosition()));
+                    intent.putExtra("cakhuc", arrBaiHat.get(getPosition()));
                     context.startActivity(intent);
                 }
             });
