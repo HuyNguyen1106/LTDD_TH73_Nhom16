@@ -18,7 +18,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.musicappth73nhom16.Adapter.ViewPagerPlayListNhac;
+import com.example.musicappth73nhom16.Adapter.ViewPagerPlaylistMusic;
 import com.example.musicappth73nhom16.Fragment.Fragment_DiaNhac;
 import com.example.musicappth73nhom16.Fragment.Fragment_Play_DanhSachCacBaiHat;
 import com.example.musicappth73nhom16.Model.BaiHat;
@@ -37,7 +37,7 @@ public class PlayNhacActivity extends AppCompatActivity {
     ImageButton imgPlay,imgRepeat,imgNext,imgPre,imgRandom;
     ViewPager viewPagerPlayNhac;
     public static ArrayList<BaiHat> mangBaiHat = new ArrayList<>();
-    public static ViewPagerPlayListNhac adapterNhac;
+    public static ViewPagerPlaylistMusic adapterNhac;
     Fragment_DiaNhac fragment_diaNhac;
     Fragment_Play_DanhSachCacBaiHat fragment_play_danhSachCacBaiHat;
     MediaPlayer mediaPlayer;
@@ -266,9 +266,9 @@ public class PlayNhacActivity extends AppCompatActivity {
         toolbarPlayNhac.setTitleTextColor(Color.WHITE);
         fragment_diaNhac = new Fragment_DiaNhac();
         fragment_play_danhSachCacBaiHat = new Fragment_Play_DanhSachCacBaiHat();
-        adapterNhac = new ViewPagerPlayListNhac(getSupportFragmentManager());
-        adapterNhac.AddFragment(fragment_play_danhSachCacBaiHat);
-        adapterNhac.AddFragment(fragment_diaNhac);
+        adapterNhac = new ViewPagerPlaylistMusic(getSupportFragmentManager());
+        adapterNhac.addFragment(fragment_play_danhSachCacBaiHat);
+        adapterNhac.addFragment(fragment_diaNhac);
         viewPagerPlayNhac.setAdapter(adapterNhac);
         fragment_diaNhac = (Fragment_DiaNhac) adapterNhac.getItem(1);
         if (mangBaiHat.size() > 0){
