@@ -14,7 +14,7 @@ import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.appmusic.Activity.DanhSachBaiHatActivity;
 import com.example.appmusic.Model.QuangCao;
-import com.example.appmusic.R;
+import com.example.musicappth73nhom16.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
