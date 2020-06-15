@@ -12,11 +12,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.appmusic.Adapter.BannerAdapter;
-import com.example.appmusic.Model.QuangCao;
+import com.example.musicappth73nhom16.Adapter.BannerAdapter;
+import com.example.musicappth73nhom16.Model.QuangCao;
 import com.example.musicappth73nhom16.R;
-import com.example.appmusic.Service.APIService;
-import com.example.appmusic.Service.DataService;
+import com.example.musicappth73nhom16.Service.APIService;
+import com.example.musicappth73nhom16.Service.DataService;
 
 import java.util.ArrayList;
 import java.util.List;
