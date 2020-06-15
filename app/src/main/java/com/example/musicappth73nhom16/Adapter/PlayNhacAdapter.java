@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.appmusic.Model.BaiHat;
+import com.example.musicappth73nhom16.Model.BaiHat;
 import com.example.musicappth73nhom16.R;
 
 import java.util.ArrayList;
