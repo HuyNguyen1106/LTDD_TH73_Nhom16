@@ -19,11 +19,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.appmusic.Adapter.SearchBaiHatAdapter;
-import com.example.appmusic.Model.BaiHat;
+import com.example.musicappth73nhom16.Adapter.SearchBaiHatAdapter;
+import com.example.musicappth73nhom16.Model.BaiHat;
 
-import com.example.appmusic.Service.APIService;
-import com.example.appmusic.Service.DataService;
+import com.example.musicappth73nhom16.Service.APIService;
+import com.example.musicappth73nhom16.Service.DataService;
 
 import java.util.ArrayList;
 import java.util.List;
