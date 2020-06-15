@@ -18,10 +18,10 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.appmusic.Adapter.ViewPagerPlayListNhac;
-import com.example.appmusic.Fragment.Fragment_DiaNhac;
-import com.example.appmusic.Fragment.Fragment_Play_DanhSachCacBaiHat;
-import com.example.appmusic.Model.BaiHat;
+import com.example.musicappth73nhom16.Adapter.ViewPagerPlayListNhac;
+import com.example.musicappth73nhom16.Fragment.Fragment_DiaNhac;
+import com.example.musicappth73nhom16.Fragment.Fragment_Play_DanhSachCacBaiHat;
+import com.example.musicappth73nhom16.Model.BaiHat;
 import com.example.musicappth73nhom16.R;
 
 import java.io.IOException;
