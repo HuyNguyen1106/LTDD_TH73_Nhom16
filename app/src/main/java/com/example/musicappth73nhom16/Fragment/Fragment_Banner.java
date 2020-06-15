@@ -14,7 +14,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.appmusic.Adapter.BannerAdapter;
 import com.example.appmusic.Model.QuangCao;
-import com.example.appmusic.R;
+import com.example.musicappth73nhom16.R;
 import com.example.appmusic.Service.APIService;
 import com.example.appmusic.Service.DataService;
 
