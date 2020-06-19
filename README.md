@@ -13,6 +13,13 @@ Danh sách thành viên:
   +Thông tin tài khoản:
     Email: khacvu0505@gmail.com
     Mật khẩu: 01699652356
+ 
+ -Link:Bài hát
+  +https://vn.000webhost.com/members/website/musiczingmp3/dashboard
+  (Vào Quản Lý File-->Tải File lên)
+  +Thông tin tài khoản
+    Email: hoangquyen8599@gmail.com
+    Mật khẩu: thiquyen99
   
 
 Phân công:
