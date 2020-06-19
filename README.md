@@ -6,6 +6,15 @@ Danh sách thành viên:
 - Đỗ Phú Khương
 - Phạm Thanh Tùng
 
+
+-Link:API,Hình Ảnh
+  + https://vn.000webhost.com/members/website/app-music-th73/dashboard
+  (Vào Quản Lý File-->Tải file lên)
+  +Thông tin tài khoản:
+    Email: khacvu0505@gmail.com
+    Mật khẩu: 01699652356
+  
+
 Phân công:
   - Vũ: 
     + Fragment: Tìm kiếm
