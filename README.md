@@ -4,7 +4,23 @@ Danh sách thành viên:
 - Hoàng Thị Quyên, MSSV: 1751010121
 - Nguyễn Chung Huy, MSSV: 1751010044
 - Đỗ Phú Khương
-- Phạm Thanh Tùng
+- Phạm Thanh Tùng, MSSV: 1751012081
+
+
+-Link:API,Hình Ảnh
+  + https://vn.000webhost.com/members/website/app-music-th73/dashboard
+  (Vào Quản Lý File-->Tải file lên)
+  +Thông tin tài khoản:
+    Email: khacvu0505@gmail.com
+    Mật khẩu: 01699652356
+ 
+ -Link:Bài hát
+  +https://vn.000webhost.com/members/website/musiczingmp3/dashboard
+  (Vào Quản Lý File-->Tải File lên)
+  +Thông tin tài khoản
+    Email: hoangquyen8599@gmail.com
+    Mật khẩu: thiquyen99
+  
 
 Phân công:
   - Vũ: 
