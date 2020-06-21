@@ -1,14 +1,13 @@
 package com.example.musicappth73nhom16.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.musicappth73nhom16.Adapter.DanhSachTheLoaiTheoChuDeAdapter;
 import com.example.musicappth73nhom16.Model.ChuDe;
@@ -25,6 +24,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class DanhSachTheLoaiTheoChuDeActivity extends AppCompatActivity {
+    
     ChuDe chuDe;
     RecyclerView recyclerViewTheLoaiTheoChuDe;
     Toolbar toolbarTheLoaiTheoChuDe;

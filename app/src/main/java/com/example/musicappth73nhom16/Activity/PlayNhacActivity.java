@@ -1,9 +1,5 @@
 package com.example.musicappth73nhom16.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.viewpager.widget.ViewPager;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.media.AudioManager;
@@ -16,7 +12,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager.widget.ViewPager;
 
 import com.example.musicappth73nhom16.Adapter.ViewPagerPlaylistMusic;
 import com.example.musicappth73nhom16.Fragment.Fragment_DiaNhac;

@@ -2,7 +2,6 @@ package com.example.musicappth73nhom16.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +41,7 @@ public class Fragment_ChuDe_TheLoai_HomNay extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_chude_theloai_today,container,false);
+        view = inflater.inflate(R.layout.fragment_chude_theloai_homnay,container,false);
         horizontalScrollView = view.findViewById(R.id.horizontalscrollview);
         txtxemthemchudetheloai = view.findViewById(R.id.textviewxemthem);
         txtxemthemchudetheloai.setOnClickListener(new View.OnClickListener() {

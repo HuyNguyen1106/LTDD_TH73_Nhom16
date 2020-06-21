@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.musicappth73nhom16.Adapter.BaiHatHotAdapter;
-import com.example.musicappth73nhom16.Adapter.BannerAdapter;
 import com.example.musicappth73nhom16.Model.BaiHat;
 import com.example.musicappth73nhom16.R;
 import com.example.musicappth73nhom16.Service.APIService;
@@ -32,7 +31,7 @@ public class Fragment_Hot_Songs extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_baihat_thichnhat,container,false);
+        view = inflater.inflate(R.layout.fragment_hot_songs,container,false);
         recyclerViewBaiHatHot = view.findViewById(R.id.recyclerviewbaihathot);
         GetData();
 

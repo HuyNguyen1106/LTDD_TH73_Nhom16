@@ -1,12 +1,12 @@
 package com.example.musicappth73nhom16.Activity;
 
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.view.View;
 
 import com.example.musicappth73nhom16.Adapter.DanhSachTatCaChuDeAdapter;
 import com.example.musicappth73nhom16.Model.ChuDe;
@@ -22,7 +22,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class DanhSachTatCaChuDeActivity extends AppCompatActivity {
-
     RecyclerView recyclerViewTatCaChuDe;
     Toolbar toolbarTatCaChuDe;
     DanhSachTatCaChuDeAdapter danhSachTatCaChuDeAdapter;

@@ -4,11 +4,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.example.musicappth73nhom16.Activity.PlayNhacActivity;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.musicappth73nhom16.Adapter.PlayNhacAdapter;
 import com.example.musicappth73nhom16.R;
 
 public class Fragment_Play_DanhSachCacBaiHat extends Fragment {
