@@ -12,7 +12,31 @@
         android:id="@+id/linearlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
+        <fragment
+            android:id="@+id/fragmentbanner"
+            android:name="com.example.musicappth73nhom16.Fragment.Fragment_Banner"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <fragment
+            android:id="@+id/fragmentplaylist"
+            android:name="com.example.musicappth73nhom16.Fragment.Fragment_Playlist"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <fragment
+            android:id="@+id/fragmentchudetheloaitoday"
+            android:name="com.example.musicappth73nhom16.Fragment.Fragment_ChuDe_TheLoai_HomNay"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <fragment
+            android:id="@+id/fragmentAlbumHot"
+            android:name="com.example.musicappth73nhom16.Fragment.Fragment_Album_Hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragmentHotSongs"
+            android:name="com.example.musicappth73nhom16.Fragment.Fragment_Hot_Songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

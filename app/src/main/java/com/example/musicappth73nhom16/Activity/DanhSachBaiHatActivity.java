@@ -209,11 +209,11 @@ public class DanhSachBaiHatActivity extends AppCompatActivity {
             if (intent.hasExtra("itemPlaylist")) {
                 playlist = (Playlist) intent.getSerializableExtra("itemPlaylist");
             }
-            if (intent.hasExtra("itemtheloai")) {
-                theLoai = (TheLoai) intent.getSerializableExtra("itemtheloai");
+            if (intent.hasExtra("idtheloai")) {
+                theLoai = (TheLoai) intent.getSerializableExtra("idtheloai");
             }
-            if (intent.hasExtra("itemalbum")) {
-                album = (Album) intent.getSerializableExtra("itemalbum");
+            if (intent.hasExtra("album")) {
+                album = (Album) intent.getSerializableExtra("album");
             }
         }
     }
