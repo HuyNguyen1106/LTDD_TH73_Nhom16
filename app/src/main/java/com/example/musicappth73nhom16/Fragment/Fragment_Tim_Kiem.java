@@ -1,7 +1,7 @@
 package com.example.musicappth73nhom16.Fragment;
 
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -44,7 +44,7 @@ public class Fragment_Tim_Kiem extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_timkiem,container,false);
+        view = inflater.inflate(R.layout.fragment_tim_kiem,container,false);
         toolbar = view.findViewById(R.id.toolbarsearchbaihat);
         recyclerViewSearchBaiHat = view.findViewById(R.id.recyclerviewsearchbaihat);
         txtKhongCoDuLieu = view.findViewById(R.id.textviewkhongcodulieu);

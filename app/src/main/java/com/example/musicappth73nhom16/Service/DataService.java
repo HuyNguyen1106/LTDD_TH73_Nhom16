@@ -1,13 +1,7 @@
 package com.example.musicappth73nhom16.Service;
 
-import com.example.musicappth73nhom16.Model.Album;
-import com.example.musicappth73nhom16.Model.BaiHat;
-import com.example.musicappth73nhom16.Model.ChuDe;
-import com.example.musicappth73nhom16.Model.PlayList;
-import com.example.musicappth73nhom16.Model.QuangCao;
-import com.example.musicappth73nhom16.Model.TheLoai;
-import com.example.musicappth73nhom16.Model.TheLoaiTrongNgay;
 
+import com.example.musicappth73nhom16.Model.*;
 import java.util.List;
 
 import retrofit2.Call;
@@ -21,7 +15,7 @@ public interface DataService {
     Call<List<QuangCao>> GetDataBanner();
 
     @GET("PlayListForCurrentDay.php")
-    Call<List<PlayList>> GetPlayListCurrentDay();
+    Call<List<Playlist>> GetPlayListCurrentDay();
 
     @GET("chudevatheloaitrongngay.php")
     Call<TheLoaiTrongNgay> GetCategoryMusic();
@@ -41,7 +35,7 @@ public interface DataService {
     Call<List<BaiHat>> GetDanhSachBaiHatTheoPlayList(@Field("idplaylist") String idplaylist);
 
     @GET("DanhSachCacPlayList.php")
-    Call<List<PlayList>> GetDanhSachCacPlayList();
+    Call<List<Playlist>> GetDanhSachCacPlayList();
 
     @FormUrlEncoded
     @POST("DanhSachBaiHat.php")
